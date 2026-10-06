@@ -20,3 +20,5 @@ The two accepted replay edits survived one isolated full-context polish pass unc
 77 offline tests and Ruff pass. Tests cover semantic voice changes, fabricated/overconfident forms, citation leaks, control characters, stale evidence, bounded repair/recovery and gates stopping paid downstream work. The existing user-approved school-phone episode remains unchanged. Further production calibration and source-scoped drafting work remain necessary.
 
 The cumulative local test reservation ledger reached $23.6622 under the user-authorized $25 cap. Provider billing is separate. Generated run artifacts and credentials are excluded from Git.
+
+GitHub CI also passed on Python 3.11 and 3.14 for the published source commit: [verified test run](https://github.com/CyberSecDef/crosstalk/actions/runs/37408283271).
