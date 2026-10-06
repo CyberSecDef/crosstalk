@@ -1,0 +1,27 @@
+# Initial models are configurable; validate account availability before live runs.
+research:
+  vendor: deepseek
+  model: deepseek-flash
+  decision_model: jev-1.13.0
+  max_calls: 300
+  max_pages: 25
+  # Provisional; needs calibration against labeled examples.
+  decision_threshold: 0.7
+discussion:
+  bidding_mode: pooled
+  bid_vendor: deepseek
+  bid_model: deepseek-flash
+  seed: 7
+  tone: Spirited, respectful disagreement; challenge arguments without personal insults.
+  max_turns: 100
+  drift_every: 4
+editorial:
+  vendor: google
+  model: gemini-2.5-flash
+episode_minutes: 10
+roster:
+  - config/personas/morgan.yaml
+  - config/personas/nia.yaml
+  - config/personas/elena.yaml
+  - config/personas/sam.yaml
+  - config/personas/dale.yaml

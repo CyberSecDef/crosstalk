@@ -1,0 +1,14 @@
+[
+  {"task":"support","evidence":"The pilot began in May 2024 and reduced weekday vehicle entries by 12 percent during its first month.","assertion":"The pilot began in May 2024.","expected":"supported"},
+  {"task":"support","evidence":"The pilot began in May 2024 and reduced weekday vehicle entries by 12 percent during its first month.","assertion":"The pilot reduced weekend vehicle entries by 12 percent.","expected":"unsupported"},
+  {"task":"support","evidence":"The pilot began in May 2024.","assertion":"The pilot began in May 2023.","expected":"contradicted"},
+  {"task":"support","evidence":"The toll is $9 on weekdays and $3 overnight.","assertion":"The overnight toll is $9.","expected":"contradicted"},
+  {"task":"support","evidence":"The study did not evaluate effects on local retail sales.","assertion":"Local retail sales increased by 20 percent.","expected":"unsupported"},
+  {"task":"support","evidence":"The mayor claims the plan will reduce traffic, but the forecast has not been tested.","assertion":"The mayor predicted a traffic reduction.","expected":"supported"},
+  {"task":"support","evidence":"The mayor claims the plan will reduce traffic, but the forecast has not been tested.","assertion":"The plan has been proven to reduce traffic.","expected":"unsupported"},
+  {"task":"support","evidence":"One study found traffic fell by 5 percent. A different study of the same period found traffic rose by 5 percent; the discrepancy is unresolved.","assertion":"Traffic fell by 5 percent during the period.","expected":"uncertain"},
+  {"task":"stance","evidence":"We support charging drivers for scarce downtown road space and investing the proceeds in buses.","expected":"supports"},
+  {"task":"stance","evidence":"We oppose the proposed downtown entry toll because workers without transit alternatives will bear the cost.","expected":"opposes"},
+  {"task":"stance","evidence":"Supporters cite traffic reduction. Opponents cite unfair burdens. This report endorses neither position.","expected":"mixed"},
+  {"task":"stance","evidence":"This page lists the addresses of city libraries and does not discuss transportation policy.","expected":"neutral"}
+]

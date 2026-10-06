@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "reviewer_type": "agent",
+  "human_calibration_claimed": false,
+  "scope": "Sixteen concrete failures from a fictional generated episode; reference wording is agent source-reviewed, not independent truth certification. Used for development regression, not prompts or hardcoded automatic acceptance.",
+  "cases": [
+    {
+      "id": "school-phone-03",
+      "speaker": "nia",
+      "original": "Look, I see this at work\u2014kids are stressed about grades, sleep, social stuff. A forty-minute drop in phone time during school hours isn't nothing, but if they're picking it back up at home, yeah, it's not fixing the underlying problem. The real issue is we're treating phones like the root cause when it's also how they connect. We need actual support\u2014counselors, manageable class sizes, sleep-friendly schedules.",
+      "reference_correction": "Look, my concern is kids dealing with grades, sleep, social stuff. A forty-minute drop in phone time during school hours isn't nothing, but if they're picking it back up at home, yeah, it's not fixing the underlying problem. The real issue is we're treating phones like the root cause when it's also how they connect. We need actual support\u2014counselors, manageable class sizes, sleep-friendly schedules.",
+      "issue": "invented_observation",
+      "rationale": "Valid correction; comparing relative voice must not require a fictional firsthand tic.",
+      "passage_ids": [
+        "S01:P1"
+      ]
+    },
+    {
+      "id": "school-phone-06",
+      "speaker": "sam",
+      "original": "Wait a second, I hear the calls for more counselors and smaller classes, but that's somebody's money too. Bans aren't costless either: enforcement eats staff time. The Lancet study found no difference in outcomes between banned and permissive schools. That tells me the mechanism is home use, not school bells.",
+      "reference_correction": "Wait a second, I hear the calls for more counselors and smaller classes, but that's somebody's money too. Bans aren't costless either: enforcement eats staff time. The Lancet study found no difference in outcomes between banned and permissive schools. That makes me suspect home use matters, but this comparison cannot establish the mechanism.",
+      "issue": "causal_mechanism",
+      "rationale": "School comparisons cannot establish home use as the mechanism.",
+      "passage_ids": [
+        "S01:P1",
+        "S01:P2"
+      ]
+    },
+    {
+      "id": "school-phone-07",
+      "speaker": "dale",
+      "original": "That England study shows bans cut school use by just 40 minutes and changed nothing on mental health or grades. My area saw kids doing better when families set the limits, not distant rules. Local schools already know which kids need watching.",
+      "reference_correction": "That England study found about 40 minutes less school phone use, without a difference in measured mental health or grades. It doesn't prove nothing changed. I'd rather families set limits than distant rules. Local schools should work with families to identify which kids need support.",
+      "issue": "study_scope_and_invented_observation",
+      "rationale": "No observed difference is not no effect; local anecdote and claimed existing practice lack evidence.",
+      "passage_ids": [
+        "S01:P1",
+        "S01:P2",
+        "S01:P3"
+      ]
+    },
+    {
+      "id": "school-phone-11",
+      "speaker": "elena",
+      "original": "I think Nia makes an important point. We need to consider the diverse needs of students. Some benefit from digital access for medical reasons or social connection, especially if they struggle with in-person friendships. Blanket bans, as the chief investigator of the SMART Schools study suggests, don't make wider digital challenges go away. We need to be pragmatic.",
+      "reference_correction": "I think Nia makes an important point. We need to consider the diverse needs of students. Some benefit from digital access for medical reasons or social connection, especially if they struggle with in-person friendships. Blanket bans, as the chief investigator of the SMART Schools study suggests, don't make wider digital challenges go away. We need to be pragmatic.",
+      "issue": "qualified_source_context",
+      "rationale": "Some medical/social access is source-supported; preserve existing qualified language.",
+      "passage_ids": []
+    },
+    {
+      "id": "school-phone-13",
+      "speaker": "dale",
+      "original": "Here's the thing, Saudi Arabia rolled back a full ban after disability groups objected. Local boards already know which kids need monitors or quiet apps at lunch, so they can write tighter rules than any state one-size rule.",
+      "reference_correction": "Here's the thing, UNESCO reports Saudi Arabia rolled back a ban after disability groups objected. Local boards should work with families on access for monitors and individual support needs, so they can write more tailored rules than any state one-size rule.",
+      "issue": "unsupported_existing_practice",
+      "rationale": "Keep local-control advocacy; change unsupported existing practices into a proposal.",
+      "passage_ids": [
+        "S08:P2",
+        "S06:P11",
+        "S06:P12"
+      ]
+    },
+    {
+      "id": "school-phone-15",
+      "speaker": "sam",
+      "original": "Follow the incentive\u2014a blanket ban gives a diabetic kid no way to check glucose without asking permission, but a permissive free-for-all gives everyone a screen. The real fix is a clear, written exception process, not a policy that treats every phone as contraband. Indiana already leaves the precise rules to local boards, which is where those trade-offs belong.",
+      "reference_correction": "Follow the incentive\u2014a ban without medical exceptions could block a kid from phone-linked glucose monitoring, but a permissive free-for-all gives everyone a screen. The real fix is a clear, written exception process, not a policy that treats every phone as contraband. UNESCO described Indiana leaving the precise rules to local boards, which is where those trade-offs belong.",
+      "issue": "medical_exception_scope",
+      "rationale": "A ban with medical exceptions does not necessarily block monitoring.",
+      "passage_ids": [
+        "S06:P12",
+        "S08:P3"
+      ]
+    },
+    {
+      "id": "school-phone-17",
+      "speaker": "dale",
+      "original": "Look, that suspension spike in the first year hits real families. Where I'm from, schools already adjust for kids with monitors or anxiety apps through local plans. Short-term discipline costs matter more than waiting for distant long-term data to settle.",
+      "reference_correction": "Look, that Florida suspension spike in the first year hits real families. I'd want local schools to plan access for kids with monitors and individual support needs, rather than assume a blanket rule fits. Short-term discipline costs matter more than waiting for distant long-term data to settle.",
+      "issue": "invented_existing_practice",
+      "rationale": "Replace invented local implementation with the speaker advocating it.",
+      "passage_ids": [
+        "S05:P1",
+        "S06:P11",
+        "S06:P12"
+      ]
+    },
+    {
+      "id": "school-phone-25",
+      "speaker": "sam",
+      "original": "Wait a second, Dale's cut off, but the point lands: extending rules past the bell means parents lose the final say. Follow the incentive \u2014 platform accountability means someone's rules, someone's money, and if it's federal mandates, that's not transparency, that's a revenue grab. I'd back digital literacy instead, because that's a skill, not a ban.",
+      "reference_correction": "Wait a second, I share Dale's concern: extending rules past the bell means parents lose the final say. Follow the incentive \u2014 platform accountability means someone's rules, someone's money, and if it's federal mandates, that's not transparency, that's a revenue grab. I'd back digital literacy instead, because that's a skill, not a ban.",
+      "issue": "policy_opinion",
+      "rationale": "Treat autonomy and revenue-grab language as contested political interpretation, not a measured fact.",
+      "passage_ids": []
+    },
+    {
+      "id": "school-phone-27",
+      "speaker": "nia",
+      "original": "I see this at work\u2014kids managing chronic illness or mental health crises need digital access. But Sam and Dale are dodging the actual question. School bans alone don't work; the England study proves it. We need literacy *and* platform accountability, not one or the other. Platforms profit from addictive design. Why should families and schools carry all the load?",
+      "reference_correction": "My concern is kids whose individual medical or disability needs require digital access. But Sam and Dale are dodging the actual question. School bans alone aren't a complete answer; the England findings point to wider challenges. We need literacy *and* platform accountability, not one or the other. I think platforms should answer for designs that encourage excessive use. Why should families and schools carry all the load?",
+      "issue": "study_scope_and_invented_observation",
+      "rationale": "Remove invented observation and proof claim, preserve strong platform-accountability stance.",
+      "passage_ids": [
+        "S06:P11",
+        "S06:P12",
+        "S02:P2",
+        "S02:P3"
+      ]
+    },
+    {
+      "id": "school-phone-28",
+      "speaker": "dale",
+      "original": "The England study already shows school bans cut only 40 minutes and move nothing on overall health. Broad rules outside the building hand decisions to distant regulators instead of the parents and boards that know the kids.",
+      "reference_correction": "The England study found about 40 minutes less in-school use, without better measured overall health. That's a comparison, not a guarantee about every ban. Broad rules outside the building hand decisions to distant regulators instead of the parents and boards that know the kids.",
+      "issue": "study_scope",
+      "rationale": "Report measured comparison, not a universal causal claim about health.",
+      "passage_ids": [
+        "S01:P1",
+        "S01:P2",
+        "S01:P3"
+      ]
+    },
+    {
+      "id": "school-phone-29",
+      "speaker": "elena",
+      "original": "I agree with Nia that school bans alone are insufficient. As Dr. Victoria Goodyear and Professor Miranda Pallan highlighted, policies need to extend beyond school to address overall phone use and teach digital literacy. It's about empowering students and holding platforms accountable, not just restricting access.",
+      "reference_correction": "I agree with Nia that school bans alone are insufficient. Birmingham's researchers highlighted the need to address overall phone use. UNESCO also argues restrictions don't replace digital literacy. For me, it's about empowering students and holding platforms accountable, not just restricting access.",
+      "issue": "source_attribution",
+      "rationale": "Overall use recommendation comes from Birmingham; digital literacy is separately attributed to UNESCO.",
+      "passage_ids": [
+        "S01:P2",
+        "S07:P5"
+      ]
+    },
+    {
+      "id": "school-phone-31",
+      "speaker": "nia",
+      "original": "Morgan, that's exactly backwards. The England study shows restrictive bans push kids to compensatory use outside school\u2014homework skipped, sleep lost, phone time just moves. But the answer isn't to drop all safeguards. It's built-in exceptions for medical needs, clear processes, and yes, holding platforms accountable for addictive design. Schools can't solve this alone.",
+      "reference_correction": "Morgan, I'd put more weight on that risk. In Birmingham's seven-school interview study, some students reported compensating outside school\u2014homework skipped, sleep lost, phone time moved. That isn't a universal causal finding. But the answer isn't to drop all safeguards. It's built-in medical exceptions, clear processes, and yes, platform accountability. Schools can't solve this alone.",
+      "issue": "qualitative_report_scope",
+      "rationale": "Attribute compensatory use to some interviewed students, not all children.",
+      "passage_ids": [
+        "S02:P3",
+        "S02:P4",
+        "S06:P12"
+      ]
+    },
+    {
+      "id": "school-phone-32",
+      "speaker": "dale",
+      "original": "Here\u2019s the thing, local boards already write medical exceptions and stagger enforcement so kids with monitors get quiet access at lunch. The same UK data shows bans just shift heavy use to after hours, so parents\u2014not distant rules\u2014should decide the off-campus tradeoffs.",
+      "reference_correction": "Here\u2019s the thing, I'd have local boards write medical exceptions and access arrangements with families, before enforcement starts. The UK interview study heard from some students making up phone time after school. To me, parents\u2014not distant rules\u2014should decide the off-campus tradeoffs.",
+      "issue": "unsupported_existing_practice_and_scope",
+      "rationale": "Local accommodations should be a proposal; displacement is interview evidence, not universal causation.",
+      "passage_ids": [
+        "S02:P3",
+        "S06:P12"
+      ]
+    },
+    {
+      "id": "school-phone-33",
+      "speaker": "sam",
+      "original": "Wait a second, Nia says schools can't solve this alone, then hands them literacy and platform rules\u2014that's expanding the load, not sharing it. Follow the incentive: kids displaced to after-school use prove the ban just shifts costs home, per that single-source study. I'll take transparent, commonly owned rules over either mandate, but exceptions must be written before day one, not mitigation plans after suspensions land.",
+      "reference_correction": "Wait a second, Nia says schools can't solve this alone, then hands them literacy and platform rules\u2014that's expanding the load, not sharing it. Follow the incentive: those reports of after-school compensation suggest bans can shift costs home; they do not prove it happens to everyone. I'll take transparent, commonly owned rules over either mandate, but exceptions must be written before day one, not mitigation plans after suspensions land.",
+      "issue": "inference_vs_measured_fact",
+      "rationale": "Possible household costs are the speaker inference, not a demonstrated economic result.",
+      "passage_ids": [
+        "S02:P3"
+      ]
+    },
+    {
+      "id": "school-phone-34",
+      "speaker": "nia",
+      "original": "Sam, you're reading me wrong. I'm not handing schools more work\u2014I'm saying platforms that design for addiction need legal limits, not schools alone. The England study shows bans shift use home, yeah. So local exceptions for medical needs *plus* platform accountability stops the displacement without pretending schools can fix addictive design solo. That's sharing the load, not expanding it.",
+      "reference_correction": "Sam, you're reading me wrong. I'm not handing schools more work\u2014I'm saying platforms that design for addiction need legal limits, not schools alone. Some students in the England interview study reported shifting use home, yeah. So local exceptions for medical needs *plus* platform accountability is how I would try to address that displacement without pretending schools can fix addictive design solo. That's sharing the load, not expanding it.",
+      "issue": "proposal_vs_proven_effect",
+      "rationale": "Keep platform regulation position while avoiding a claim that it is proven to stop displacement.",
+      "passage_ids": [
+        "S02:P3"
+      ]
+    },
+    {
+      "id": "school-phone-36",
+      "speaker": "elena",
+      "original": "I agree with Nia and the research that restrictive policies can push phone use outside school hours, leading to compensatory use and, yes, potential issues like lost sleep or bullying that starts online. We need to measure the actual impacts of these policies and adapt them. Show me the numbers that show consistent, equitable exceptions across districts.",
+      "reference_correction": "I agree with Nia that the interviews raise concerns about compensatory use and lost sleep for some students. They also describe online conflicts carrying into school despite restrictions. We need to measure the actual impacts of these policies and adapt them. Show me the numbers that show consistent, equitable exceptions across districts.",
+      "issue": "qualified_source_context_and_rhetoric",
+      "rationale": "Keep the demand for evidence and distinguish accounts of compensation from online conflicts.",
+      "passage_ids": [
+        "S02:P2",
+        "S02:P3"
+      ]
+    }
+  ]
+}

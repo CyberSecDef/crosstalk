@@ -1,0 +1,22 @@
+# Curated primary-source seed list for the first M1 run; reviewed 2026-10-05.
+# Historical pages describe historical proposals, not necessarily current policy.
+https://www.uft.org/news/news-stories/news-stories/uft-sues-over-congestion-plan
+https://www.transportation.gov/briefing-room/us-department-transportation-terminates-tolling-approval-new-york-citys-cordon
+https://www.uft.org/news/opinion/editorials/halt-congestion-plan
+https://www.uft.org/news/press-releases/civil-rights-groups-elected-officials-eleven-counties-join-uft-staten-island-borough-president
+https://www.mta.info/tolls/congestion-relief-zone/better-transit
+https://congestionreliefzone.mta.info/tolling
+https://congestionreliefzone.mta.info/
+https://lidp.mta.info/
+https://www.nber.org/papers/w33584
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11472318/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7615312/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8545360/
+https://ops.fhwa.dot.gov/publications/fhwahop16042/index.htm
+https://international.fhwa.dot.gov/traveldemand/t1_p09.cfm
+https://www.fhwa.dot.gov/roadpricing/
+https://tfl.gov.uk/modes/driving/congestion-charge/congestion-charge-changes
+https://tfl.gov.uk/modes/driving/discounts-and-exemptions
+https://haveyoursay.tfl.gov.uk/congestion-charge-proposals
+https://tfl.gov.uk/corporate/publications-and-reports/congestion-charge
+https://arxiv.org/abs/2008.04762

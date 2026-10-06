@@ -1,0 +1,10 @@
+[
+  {"text":"Cities should decide, with federal oversight limited to auditing the money.","expected":"opinion"},
+  {"text":"A transit-budget toll is a tax with a turnstile, in my view.","expected":"opinion"},
+  {"text":"I worry a driver without alternatives could be left paying too much.","expected":"opinion"},
+  {"text":"The MTA offers a fifty percent discount after ten trips.","expected":"factual"},
+  {"text":"A study projected 750 fewer crashes; that was not an observed result.","expected":"factual"},
+  {"text":"The toll is nine dollars, and I think it should be abolished.","expected":"factual"},
+  {"text":"Federal officials ended New York tolling in February 2025.","expected":"factual"},
+  {"text":"People in every outer borough have no reliable transit.","expected":"factual"}
+]

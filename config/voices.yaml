@@ -1,0 +1,6 @@
+# Built-in synthetic voices; prototype mapping, independently configurable.
+morgan: {provider: openai, model: tts-1, voice: alloy, speed: 1.05}
+nia: {provider: openai, model: tts-1, voice: nova, speed: 1.0}
+elena: {provider: openai, model: tts-1, voice: shimmer, speed: 1.0}
+sam: {provider: openai, model: tts-1, voice: echo, speed: 1.05}
+dale: {provider: openai, model: tts-1, voice: onyx, speed: 0.98}

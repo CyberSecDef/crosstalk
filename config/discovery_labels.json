@@ -1,0 +1,24 @@
+{
+  "confirmed_by_user": true,
+  "cases": [
+    {
+      "topic": "Should cities charge drivers to enter congested downtown areas?",
+      "debatable": true
+    },
+    {
+      "topic": "Should toll revenue fund public transit or stay dedicated to roads?",
+      "debatable": true
+    },
+    {
+      "topic": "What year did New York congestion tolling begin?",
+      "debatable": false
+    },
+    {
+      "topic": "How many minutes are in an hour?",
+      "debatable": false
+    }
+  ],
+  "note": "User confirmed all four debate-versus-factual-lookup labels. Automatic selection may proceed after the saved smoke evaluation passes.",
+  "confirmed_at": "2026-10-06T01:21:08.125417+00:00",
+  "confirmation": "User: yes. i agree."
+}
